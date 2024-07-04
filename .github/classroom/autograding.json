@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test if File exists",
+      "setup": "",
+      "run": "python -m unittest test_largest_number.Test.test_file_exists",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test largest_number Function",
+      "setup": "",
+      "run": "python -m unittest test_largest_number.Test.test_largest_number",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
